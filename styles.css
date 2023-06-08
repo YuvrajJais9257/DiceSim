@@ -1,0 +1,94 @@
+/* Color Scheme */
+:root {
+    --primary-color: #4ECCA3;
+    --secondary-color: #393E46;
+    --text-color: #ffffff;
+    --button-color: #ffffff;
+    --button-hover-color: #2B8F71;
+  }
+  
+  body {
+    background-color: var(--secondary-color);
+  }
+  
+  h1 {
+    color: var(--primary-color);
+  }
+  
+  p {
+    color: var(--primary-color);
+  }
+  
+  button {
+    background-color: var(--primary-color);
+    color: var(--button-color);
+  }
+  
+  button:hover {
+    background-color: var(--button-hover-color);
+  }
+  
+  footer {
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+  }
+  
+  .social-icon {
+    color: var(--text-color);
+  }
+  
+  .social-icon:hover {
+    color: var(--primary-color);
+  }
+  
+  .navbar {
+    background-color: var(--secondary-color);
+  }
+  
+  .navbar-brand {
+    color: var(--text-color);
+  }
+  
+  .nav-link {
+    color: var(--text-color);
+  }
+  
+  .dropdown-item {
+    color: var(--text-color);
+  }
+  
+  .dropdown-divider {
+    border-color: var(--primary-color);
+  }
+  
+  .big-heading {
+    color: var(--primary-color);
+  }
+  
+  .btn-dark {
+    background-color: var(--primary-color);
+    color: var(--button-color);
+  }
+  
+  .btn-light {
+    background-color: var(--button-color);
+    color: var(--primary-color);
+  }
+  
+  .btn-dark:hover,
+  .btn-light:hover {
+    background-color: var(--button-hover-color);
+  }
+  
+  .dice-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .dice {
+    text-align: center;
+    display: inline-block;
+    margin: 0 10px; /* Add some spacing between the dice */
+  }
+  
